@@ -1,0 +1,42 @@
+---
+content_type: page
+title: R Scripts and Projects
+uid: b91d782c-32fe-e884-1640-42d14c5c5d5e
+---
+
+The R Projects consist of html files with the output from running R scripts in RStudio. Using a web browser, these files detail various applications of R in the course.
+
+Interested readers may download the compressed (zipped) folders and replicate the R / RStudio computations on their own computer.
+
+The following instructions apply to executing R scripts in the first R Project. For all other R Projects, follow the same instructions (skipping step 1) replacing "rproject1.zip" with the corresponding compressed (zipped) folder for that project.
+
+1.  Download / Install R and the Rstudio desktop on your computer
+
+[http://www.rstudio.com/products/rstudio/download/](http://www.rstudio.com/products/rstudio/download/)
+
+[http://cran.rstudio.com/](http://cran.rstudio.com/)
+
+4.  Download the compressed folder for the R Project ("rproject1.zip" for Project 1) to your computer and extract the project directory, e.g., "rproject1" (for Project 1).
+5.  Start the R-Studio application. From the top bar of commands
+    *   select "File", then "New Project ...", then for the "Create Project from" option select "Create Project from Existing Directory"
+    *   with the browser that appears, navigate to select the extracted directory "rproject1" (for Project 1, or "rproject2" for Project 2, etc.)
+6.  The R-Studio application opens with a 4-panel display. The lower left panel is a console for typing R commands directly or viewing output from executed R commands. The lower right panel has tabs \[Files|Plots|Packages|Help\]. In the lower right panel, select the Files tab and open one of the R Script files, e.g., for Project 1 select the file "Rproject1\_script1.r" by clicking on the file name. The file will open in new tab in the top left panel.
+7.  Go to the file in the top left panel: Rproject1\_script1.r. Execute the script file by either pressing the "Source" button at the top tool bar of the file window, or highlighting commands in the file and typing Control-Enter or Control-r. The html file in the project directory can be re-created (compiled) by pressing the "notebook" icon at the middle of the top bar of the top-left script window. The html file is easily viewed in a web browser and documents the R commands and output from executing the R script.
+8.  To exit R-Studio, either type: q() # at the console, or select "File / Quit R" from the Tool Bar at the top of R-Studio. (It asks you to type "n" or "y" to not-save or save the workspace ".RData". You can type "n" since the scripts are designed to load relevant R workspaces explicitly; typing "y" will save any objects you might have created in the R workspace.)
+
+Note: When you restart R-Studio, the application should open automatically with the same panel of open files.
+
+| SES # | PROJECT HTML FILES | R FILES |
+| --- | --- | --- |
+| L1 | [R Project 1: Distributions Derived from the Normal Distribution](/ans7870/18/18.443/s15/projects/Rproject1_script1.html) | [R Project 1 (ZIP)]({{< baseurl >}}/resources/rproject1) (This file contains: 1 .r file.) |
+| L5 |  {{< br >}}{{< br >}} [R Project 2: LeCam-Neyman Precipitation Data (MOM Estimation of Gamma)](/ans7870/18/18.443/s15/projects/Rproject2_script1_gamma_MOM.html) {{< br >}}{{< br >}} [R Project 2: LeCam-Neyman Precipitation Data (MOM with MLE)](/ans7870/18/18.443/s15/projects/Rproject2_script2_gamma_MOMwithMLE.html) {{< br >}}{{< br >}}  | [R Project 2 (ZIP)]({{< baseurl >}}/resources/rproject2) (This file contains: 2 .r files.) |
+| L6 |  {{< br >}}{{< br >}} R Project 3: Hardy Weinberg Model / Rayleigh Distributions {{< br >}}{{< br >}} [Maximum Likelihood Estimates of Multinomial Cell Probabilities](/ans7870/18/18.443/s15/projects/Rproject3_rmd_multinomial_theory.html) {{< br >}}{{< br >}} [ML and MOM Estimates of Rayleigh Distribution Parameter](/ans7870/18/18.443/s15/projects/Rproject3_rmd_rayleigh_theory.html) {{< br >}}{{< br >}} [Multinomial Simulation](/ans7870/18/18.443/s15/projects/Rproject3_script1_multinomial_simulation.html) {{< br >}}{{< br >}} [Poisson Prussian Cavalry](/ans7870/18/18.443/s15/projects/Rproject3_script3_Poisson_PrussianCavalry.html) {{< br >}}{{< br >}} [Chromatin](/ans7870/18/18.443/s15/projects/Rproject3_script4_Chromatin.html) {{< br >}}{{< br >}}  | [R Project 3 (ZIP)]({{< baseurl >}}/resources/rproject3) (This file contains: 3 .r files.) |
+| L8 |  {{< br >}}{{< br >}} R Project 4: Bayesian Estimation {{< br >}}{{< br >}} [Bayesian Hardy Weinberg](/ans7870/18/18.443/s15/projects/Rproject4_Bayesian_HardyWeinberg.html) {{< br >}}{{< br >}} [Bayesian Poisson](/ans7870/18/18.443/s15/projects/Rproject4_Bayesian_Poisson.html) {{< br >}}{{< br >}}  | [R Project 4 (ZIP)]({{< baseurl >}}/resources/rproject4) (This file contains: 2 .r files.) |
+| L9 |  {{< br >}}{{< br >}} [R Project 5: Hypothesis Testing](/ans7870/18/18.443/s15/projects/RProject5_HypothesisTesting.html) {{< br >}}{{< br >}} [Problem 9\_11\_1 and 6](/ans7870/18/18.443/s15/projects/Problem_9_11_1and6.html) {{< br >}}{{< br >}} [Problem 9\_11\_3](/ans7870/18/18.443/s15/projects/Problem_9_11_3.html) {{< br >}}{{< br >}} [Problem 9\_11\_7](/ans7870/18/18.443/s15/projects/Problem_9_11_7.html) {{< br >}}{{< br >}}  | [R Project 5 (ZIP)]({{< baseurl >}}/resources/rproject5) (This file contains: 4 .r files.) |
+| L10 |  {{< br >}}{{< br >}} R Project 6: Hypothesis Testing II {{< br >}}{{< br >}} [LRTest Hardy Weinberg](/ans7870/18/18.443/s15/projects/Rproject6_LRTest_HardyWeinberg.html) {{< br >}}{{< br >}} [LRTest Poisson](/ans7870/18/18.443/s15/projects/Rproject6_LRTest_Poisson.html) {{< br >}}{{< br >}}  | [R Project 6 (ZIP)]({{< baseurl >}}/resources/rproject6) (This file contains: 2 .r files.) |
+| L11 |  {{< br >}}{{< br >}} R Project 7: Assessing Goodness of Fit {{< br >}}{{< br >}} [Beeswax](/ans7870/18/18.443/s15/projects/Rproject7_5_beeswax.html) {{< br >}}{{< br >}} [Lifetimes](/ans7870/18/18.443/s15/projects/Rproject7_6_lifetimes.html) {{< br >}}{{< br >}}  | [R Project 7 (ZIP)]({{< baseurl >}}/resources/rproject7) (This file contains: 6 .r files.) |
+| L13 |  {{< br >}}{{< br >}} R Project 8: Summarizing Data {{< br >}}{{< br >}} [Problem 10\_9\_26](/ans7870/18/18.443/s15/projects/Problem_10_9_26.html) {{< br >}}{{< br >}} [Windspeed](/ans7870/18/18.443/s15/projects/Rproject8_1_windspeed.html) {{< br >}}{{< br >}} [ks\_test](/ans7870/18/18.443/s15/projects/Rproject8_2_ks_test.html) {{< br >}}{{< br >}} [Bootstrap Location](/ans7870/18/18.443/s15/projects/Rproject8_3_bootstrap_location.html) {{< br >}}{{< br >}} [Density](/ans7870/18/18.443/s15/projects/Rproject8_4_density.html) {{< br >}}{{< br >}}  | [R Project 8 (ZIP)]({{< baseurl >}}/resources/rproject8) (This file contains: 5 .r files.) |
+| L14 |  {{< br >}}{{< br >}} R Project 9: Regression Analysis of CAPM {{< br >}}{{< br >}} [FM Casestudy\_1\_0\_Download Data](/ans7870/18/18.443/s15/projects/fm_casestudy_1_0_DownloadData.html) {{< br >}}{{< br >}} [FM Casestudy\_1\_1\_CAPM](/ans7870/18/18.443/s15/projects/fm_casestudy_1_1_CAPM.html) {{< br >}}{{< br >}}  | [R Project 9 (ZIP)]({{< baseurl >}}/resources/rproject9) (This file contains: 2 .r files.) |
+| L15 |  {{< br >}}{{< br >}} R Project 10: Polynomial Regressions and Weighted Regressions {{< br >}}{{< br >}} [Problem 14\_9\_39](/ans7870/18/18.443/s15/projects/Problem_14_9_39.html) {{< br >}}{{< br >}} [Flow Occ Regressions](/ans7870/18/18.443/s15/projects/Rproject10_flow_occ_regressions.html) {{< br >}}{{< br >}}  | [R Project 10 (ZIP)]({{< baseurl >}}/resources/rproject10) (This file contains: 3 .r files.) |
+| L16 |  {{< br >}}{{< br >}} R Project 11: Multiple Comparisons and ANOVA {{< br >}}{{< br >}} [Tablets One Way Anova](/ans7870/18/18.443/s15/projects/Rproject11_Tablets_OneWayAnova.html) {{< br >}}{{< br >}} [Tablets Two Sample T](/ans7870/18/18.443/s15/projects/Rproject11_Tablets_TwoSampleT.html) {{< br >}}{{< br >}}  | [R Project 11 (ZIP)]({{< baseurl >}}/resources/rproject11) (This file contains: 2 .r files.) |
+| L17 |  {{< br >}}{{< br >}} [R Project 12: Chi-square Tests and Fisher's Exact Test](/ans7870/18/18.443/s15/projects/RProject12_ChisquareTest.html) {{< br >}}{{< br >}}  | [R Project 12 (ZIP)]({{< baseurl >}}/resources/rproject12) (This file contains: 2 .r files.)
